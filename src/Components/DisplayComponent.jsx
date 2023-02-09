@@ -4,7 +4,7 @@ function DisplayComponent({ data, index, makeSubCategory }) {
   // Display List Component
   return (
     <div>
-      <div style={{ width: "50%" }}>
+      <div className="section" style={{ width: "50%" }}>
         {/* Check Validation */}
         {Object.keys(data).length !== 0 ? (
           <select
